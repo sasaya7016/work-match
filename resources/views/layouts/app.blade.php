@@ -12,12 +12,25 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
+    <!-- jQuery lib -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- transform2d lib -->
+    <script type="text/javascript" src="js/jquery.transform2d.js"></script>
+
+    <!-- jTinder lib -->
+    <script type="text/javascript" src="js/jquery.jTinder.js"></script>
+
+    <!-- jTinder initialization script -->
+    <script>$("#tinderslide").jTinder();</script>
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jTinder.css">
 </head>
 <body>
     <div id="app">
